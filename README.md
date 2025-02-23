@@ -5,15 +5,27 @@ This repository demonstrates how to implement the Repository Pattern with Unit o
 
 Features
 ✅ Repository Pattern – Encapsulates database logic for better separation of concerns.
+
 ✅ Unit of Work (UoW) – Ensures atomic transactions and manages multiple repositories efficiently.
+
 ✅ Dapper & EF Core – Supports both lightweight and full-featured ORM approaches.
+
 ✅ Dependency Injection – Uses IDbConnection for flexibility and testability.
+
 ✅ Asynchronous Operations – Implements async/await for better scalability.
+
 ✅ Logging & Exception Handling – Uses ILogger to track errors and performance.
 
+
 Technologies Used
+
 ASP.NET Core 7+
+
 Entity Framework Core
+
 Dapper
+
 SQL Server
+
 Dependency Injection (DI)
+
