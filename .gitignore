@@ -1,0 +1,56 @@
+# Ignore Visual Studio & .NET build files
+bin/
+obj/
+out/
+*.exe
+*.dll
+*.pdb
+*.cache
+*.log
+*.vs/
+*.user
+*.suo
+*.csproj.user
+*.vscode/
+
+# Ignore NuGet packages
+*.nupkg
+packages/
+!packages/repositories.config
+
+# Ignore build outputs
+*.build
+*.msbuild
+*.sln.cache
+
+# Ignore user-specific files
+*.userprefs
+*.config
+*.localhistory/
+*.DS_Store
+
+# Ignore temporary files
+*.tmp
+*.bak
+*.swp
+*.lock.json
+
+# Ignore compiled Razor files
+**/Razor/*
+
+# Ignore generated files
+GeneratedFiles/
+GeneratedCode/
+
+# Ignore Rider IDE files
+.idea/
+*.iml
+
+# Ignore ReSharper files
+*.DotSettings.user
+
+# Ignore test result files
+TestResults/
+*.trx
+*.coverage
+.coverage/

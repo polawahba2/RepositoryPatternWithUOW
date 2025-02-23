@@ -1,0 +1,6 @@
+@BSmartBackEnd.APIs_HostAddress = http://localhost:5069
+
+GET {{BSmartBackEnd.APIs_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
